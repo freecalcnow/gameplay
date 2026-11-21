@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://freecalcnow.github.io/arcadia-global-100/sitemap.xml
