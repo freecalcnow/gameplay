@@ -11,7 +11,11 @@
       "#294c75"
     ],
     "number": 1,
-    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons."
+    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons.",
+    "aim": "Reach 300 points — dodge the traffic and keep going.",
+    "controlsTouch": "TAP the left / right lane buttons to steer.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "trap-tower",
@@ -25,7 +29,11 @@
       "#51356e"
     ],
     "number": 2,
-    "controls": "Use left/right arrows to move and Space or tap JUMP to leap."
+    "controls": "Use left/right arrows to move and Space or tap JUMP to leap.",
+    "aim": "Reach 300 points — leap the gaps and keep moving.",
+    "controlsTouch": "TAP JUMP to leap. TAP the left / right buttons to move.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "skyrail-dash",
@@ -39,7 +47,11 @@
       "#293c79"
     ],
     "number": 3,
-    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears."
+    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears.",
+    "aim": "Reach 300 points — jump the barriers and keep running.",
+    "controlsTouch": "TAP JUMP to leap. TAP DOWN to duck.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "smash-circuit",
@@ -53,7 +65,11 @@
       "#235b62"
     ],
     "number": 4,
-    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons."
+    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons.",
+    "aim": "Reach 300 points — dodge the traffic and keep going.",
+    "controlsTouch": "TAP the left / right lane buttons to steer.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "block-bloom",
@@ -67,7 +83,11 @@
       "#285b6b"
     ],
     "number": 5,
-    "controls": "Choose an open cell to place the next shape. Clear complete rows."
+    "controls": "Choose an open cell to place the next shape. Clear complete rows.",
+    "aim": "Reach 100 points — place pieces and clear rows.",
+    "controlsTouch": "TAP an empty cell to place the next piece.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "bubble-forge",
@@ -81,7 +101,11 @@
       "#344c9d"
     ],
     "number": 6,
-    "controls": "Tap groups of matching bubbles to clear them. Larger groups score more."
+    "controls": "Tap groups of matching bubbles to clear them. Larger groups score more.",
+    "aim": "Reach 100 points — clear matching colour groups.",
+    "controlsTouch": "TAP a group of matching bubbles to clear it.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "crystal-merge",
@@ -95,7 +119,11 @@
       "#61478b"
     ],
     "number": 7,
-    "controls": "Use arrow keys or swipe to slide equal-number tiles together."
+    "controls": "Use arrow keys or swipe to slide equal-number tiles together.",
+    "aim": "Reach 100 points — slide tiles together to grow bigger numbers.",
+    "controlsTouch": "TAP a tile to double it. Use the on-screen direction buttons to slide the board.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "prism-breaker",
@@ -109,7 +137,11 @@
       "#235a83"
     ],
     "number": 8,
-    "controls": "Tap or use the keyboard to play."
+    "controls": "Tap or use the keyboard to play.",
+    "aim": "Clear all the glowing blocks.",
+    "controlsTouch": "TAP and drag on the game to move the paddle.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "maze-pulse",
@@ -123,7 +155,11 @@
       "#235c60"
     ],
     "number": 9,
-    "controls": "Use arrow keys, WASD or touch arrows to reach the exit."
+    "controls": "Use arrow keys, WASD or touch arrows to reach the exit.",
+    "aim": "Reach the glowing exit.",
+    "controlsTouch": "TAP the on-screen direction buttons to move through the maze.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "stack-rush",
@@ -137,7 +173,11 @@
       "#80543e"
     ],
     "number": 10,
-    "controls": "Tap, click or press Space to drop the moving platform."
+    "controls": "Tap, click or press Space to drop the moving platform.",
+    "aim": "Reach 100 points — drop each platform in line.",
+    "controlsTouch": "TAP anywhere to drop the moving platform.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "coastline-rally",
@@ -151,7 +191,11 @@
       "#245c72"
     ],
     "number": 11,
-    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons."
+    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons.",
+    "aim": "Reach 300 points — dodge the traffic and keep going.",
+    "controlsTouch": "TAP the left / right lane buttons to steer.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "neon-lane-rush",
@@ -165,7 +209,11 @@
       "#583e85"
     ],
     "number": 12,
-    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons."
+    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons.",
+    "aim": "Reach 300 points — dodge the traffic and keep going.",
+    "controlsTouch": "TAP the left / right lane buttons to steer.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "orbit-drift",
@@ -179,7 +227,11 @@
       "#334b82"
     ],
     "number": 13,
-    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons."
+    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons.",
+    "aim": "Reach 300 points — dodge the traffic and keep going.",
+    "controlsTouch": "TAP the left / right lane buttons to steer.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "canyon-courier",
@@ -193,7 +245,11 @@
       "#79543f"
     ],
     "number": 14,
-    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons."
+    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons.",
+    "aim": "Reach 300 points — dodge the traffic and keep going.",
+    "controlsTouch": "TAP the left / right lane buttons to steer.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "harbor-sprint",
@@ -207,7 +263,11 @@
       "#235f7d"
     ],
     "number": 15,
-    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons."
+    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons.",
+    "aim": "Reach 300 points — dodge the traffic and keep going.",
+    "controlsTouch": "TAP the left / right lane buttons to steer.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "skyway-sprint",
@@ -221,7 +281,11 @@
       "#33467e"
     ],
     "number": 16,
-    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons."
+    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons.",
+    "aim": "Reach 300 points — dodge the traffic and keep going.",
+    "controlsTouch": "TAP the left / right lane buttons to steer.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "rooftop-rally",
@@ -235,7 +299,11 @@
       "#594179"
     ],
     "number": 17,
-    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons."
+    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons.",
+    "aim": "Reach 300 points — dodge the traffic and keep going.",
+    "controlsTouch": "TAP the left / right lane buttons to steer.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "marble-motor",
@@ -249,7 +317,11 @@
       "#265e5d"
     ],
     "number": 18,
-    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons."
+    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons.",
+    "aim": "Reach 300 points — dodge the traffic and keep going.",
+    "controlsTouch": "TAP the left / right lane buttons to steer.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "midnight-motor",
@@ -263,7 +335,11 @@
       "#272f64"
     ],
     "number": 19,
-    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons."
+    "controls": "Use left/right arrows or A/D. Touch users can tap the lane buttons.",
+    "aim": "Reach 300 points — dodge the traffic and keep going.",
+    "controlsTouch": "TAP the left / right lane buttons to steer.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "cloudbound",
@@ -277,7 +353,11 @@
       "#41669a"
     ],
     "number": 20,
-    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears."
+    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears.",
+    "aim": "Reach 300 points — jump the barriers and keep running.",
+    "controlsTouch": "TAP JUMP to leap. TAP DOWN to duck.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "canyon-hop",
@@ -291,7 +371,11 @@
       "#78453d"
     ],
     "number": 21,
-    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears."
+    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears.",
+    "aim": "Reach 300 points — jump the barriers and keep running.",
+    "controlsTouch": "TAP JUMP to leap. TAP DOWN to duck.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "lantern-leap",
@@ -305,7 +389,11 @@
       "#74513f"
     ],
     "number": 22,
-    "controls": "Use left/right arrows to move and Space or tap JUMP to leap."
+    "controls": "Use left/right arrows to move and Space or tap JUMP to leap.",
+    "aim": "Reach 300 points — leap the gaps and keep moving.",
+    "controlsTouch": "TAP JUMP to leap. TAP the left / right buttons to move.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "jungle-jumps",
@@ -319,7 +407,11 @@
       "#285e4a"
     ],
     "number": 23,
-    "controls": "Use left/right arrows to move and Space or tap JUMP to leap."
+    "controls": "Use left/right arrows to move and Space or tap JUMP to leap.",
+    "aim": "Reach 300 points — leap the gaps and keep moving.",
+    "controlsTouch": "TAP JUMP to leap. TAP the left / right buttons to move.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "pixel-parkour",
@@ -333,7 +425,11 @@
       "#35477c"
     ],
     "number": 24,
-    "controls": "Use left/right arrows to move and Space or tap JUMP to leap."
+    "controls": "Use left/right arrows to move and Space or tap JUMP to leap.",
+    "aim": "Reach 300 points — leap the gaps and keep moving.",
+    "controlsTouch": "TAP JUMP to leap. TAP the left / right buttons to move.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "moonstep",
@@ -347,7 +443,11 @@
       "#4a4d82"
     ],
     "number": 25,
-    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears."
+    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears.",
+    "aim": "Reach 300 points — jump the barriers and keep running.",
+    "controlsTouch": "TAP JUMP to leap. TAP DOWN to duck.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "lava-loop",
@@ -361,7 +461,11 @@
       "#733d42"
     ],
     "number": 26,
-    "controls": "Use left/right arrows to move and Space or tap JUMP to leap."
+    "controls": "Use left/right arrows to move and Space or tap JUMP to leap.",
+    "aim": "Reach 300 points — leap the gaps and keep moving.",
+    "controlsTouch": "TAP JUMP to leap. TAP the left / right buttons to move.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "candy-climb",
@@ -375,7 +479,11 @@
       "#784b7b"
     ],
     "number": 27,
-    "controls": "Use left/right arrows to move and Space or tap JUMP to leap."
+    "controls": "Use left/right arrows to move and Space or tap JUMP to leap.",
+    "aim": "Reach 300 points — leap the gaps and keep moving.",
+    "controlsTouch": "TAP JUMP to leap. TAP the left / right buttons to move.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "starbound-steps",
@@ -389,7 +497,11 @@
       "#46447e"
     ],
     "number": 28,
-    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears."
+    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears.",
+    "aim": "Reach 300 points — jump the barriers and keep running.",
+    "controlsTouch": "TAP JUMP to leap. TAP DOWN to duck.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "forest-footrace",
@@ -403,7 +515,11 @@
       "#315d4e"
     ],
     "number": 29,
-    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears."
+    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears.",
+    "aim": "Reach 300 points — jump the barriers and keep running.",
+    "controlsTouch": "TAP JUMP to leap. TAP DOWN to duck.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "tile-tangle",
@@ -417,7 +533,11 @@
       "#2f6572"
     ],
     "number": 30,
-    "controls": "Choose an open cell to place the next shape. Clear complete rows."
+    "controls": "Choose an open cell to place the next shape. Clear complete rows.",
+    "aim": "Reach 100 points — place pieces and clear rows.",
+    "controlsTouch": "TAP an empty cell to place the next piece.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "hexa-harbor",
@@ -431,7 +551,11 @@
       "#2c597e"
     ],
     "number": 31,
-    "controls": "Choose an open cell to place the next shape. Clear complete rows."
+    "controls": "Choose an open cell to place the next shape. Clear complete rows.",
+    "aim": "Reach 100 points — place pieces and clear rows.",
+    "controlsTouch": "TAP an empty cell to place the next piece.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "gem-grid",
@@ -445,7 +569,11 @@
       "#674884"
     ],
     "number": 32,
-    "controls": "Select two neighbouring tiles to swap and make a line of three."
+    "controls": "Select two neighbouring tiles to swap and make a line of three.",
+    "aim": "Reach 100 points — swap tiles to make lines of three.",
+    "controlsTouch": "TAP two neighbouring tiles to swap them.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "number-nest",
@@ -459,7 +587,11 @@
       "#76543b"
     ],
     "number": 33,
-    "controls": "Use arrow keys or swipe to slide equal-number tiles together."
+    "controls": "Use arrow keys or swipe to slide equal-number tiles together.",
+    "aim": "Reach 100 points — slide tiles together to grow bigger numbers.",
+    "controlsTouch": "TAP a tile to double it. Use the on-screen direction buttons to slide the board.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "color-cascade",
@@ -473,7 +605,11 @@
       "#2a6267"
     ],
     "number": 34,
-    "controls": "Select two neighbouring tiles to swap and make a line of three."
+    "controls": "Select two neighbouring tiles to swap and make a line of three.",
+    "aim": "Reach 100 points — swap tiles to make lines of three.",
+    "controlsTouch": "TAP two neighbouring tiles to swap them.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "match-meadow",
@@ -487,7 +623,11 @@
       "#3f6749"
     ],
     "number": 35,
-    "controls": "Select two neighbouring tiles to swap and make a line of three."
+    "controls": "Select two neighbouring tiles to swap and make a line of three.",
+    "aim": "Reach 100 points — swap tiles to make lines of three.",
+    "controlsTouch": "TAP two neighbouring tiles to swap them.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "prism-pairs",
@@ -501,7 +641,11 @@
       "#3c4f83"
     ],
     "number": 36,
-    "controls": "Tap two cards to reveal them. Find every matching pair."
+    "controls": "Tap two cards to reveal them. Find every matching pair.",
+    "aim": "Find all 8 matching pairs.",
+    "controlsTouch": "TAP two cards to reveal them.",
+    "target": 8,
+    "targetKind": "pairs"
   },
   {
     "id": "sudoku-studio",
@@ -515,7 +659,11 @@
       "#3c536f"
     ],
     "number": 37,
-    "controls": "Select a cell, then press 1–4 to enter a number."
+    "controls": "Select a cell, then press 1–4 to enter a number.",
+    "aim": "Fill every empty cell with the right number.",
+    "controlsTouch": "TAP a cell, then TAP a number below.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "word-orbit",
@@ -529,7 +677,11 @@
       "#584a84"
     ],
     "number": 38,
-    "controls": "Type your answer and press Enter."
+    "controls": "Type your answer and press Enter.",
+    "aim": "Score 50 points — unscramble 5 words before time runs out.",
+    "controlsTouch": "TAP the answer box, type the word, then TAP Submit.",
+    "target": 50,
+    "targetKind": "score"
   },
   {
     "id": "letter-ladder",
@@ -543,7 +695,11 @@
       "#754766"
     ],
     "number": 39,
-    "controls": "Type your answer and press Enter."
+    "controls": "Type your answer and press Enter.",
+    "aim": "Score 50 points — unscramble 5 words before time runs out.",
+    "controlsTouch": "TAP the answer box, type the word, then TAP Submit.",
+    "target": 50,
+    "targetKind": "score"
   },
   {
     "id": "shape-shift",
@@ -557,7 +713,11 @@
       "#2c5d6e"
     ],
     "number": 40,
-    "controls": "Choose an open cell to place the next shape. Clear complete rows."
+    "controls": "Choose an open cell to place the next shape. Clear complete rows.",
+    "aim": "Reach 100 points — place pieces and clear rows.",
+    "controlsTouch": "TAP an empty cell to place the next piece.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "marble-maze",
@@ -571,7 +731,11 @@
       "#315c6d"
     ],
     "number": 41,
-    "controls": "Use arrow keys, WASD or touch arrows to reach the exit."
+    "controls": "Use arrow keys, WASD or touch arrows to reach the exit.",
+    "aim": "Reach the glowing exit.",
+    "controlsTouch": "TAP the on-screen direction buttons to move through the maze.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "pipe-path",
@@ -585,7 +749,11 @@
       "#315f64"
     ],
     "number": 42,
-    "controls": "Use arrows or swipe to move. Push crates onto the marked goals."
+    "controls": "Use arrows or swipe to move. Push crates onto the marked goals.",
+    "aim": "Push the crate onto the glowing goal.",
+    "controlsTouch": "TAP the on-screen direction buttons to push the crate.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "pattern-pulse",
@@ -599,7 +767,11 @@
       "#46417b"
     ],
     "number": 43,
-    "controls": "Study the pattern and choose the matching next tile."
+    "controls": "Study the pattern and choose the matching next tile.",
+    "aim": "Reach level 6 — repeat the pattern shown.",
+    "controlsTouch": "Watch the pattern, then TAP the tiles in order.",
+    "target": 6,
+    "targetKind": "level"
   },
   {
     "id": "crystal-columns",
@@ -613,7 +785,11 @@
       "#624987"
     ],
     "number": 44,
-    "controls": "Use arrow keys or swipe to slide equal-number tiles together."
+    "controls": "Use arrow keys or swipe to slide equal-number tiles together.",
+    "aim": "Reach 100 points — slide tiles together to grow bigger numbers.",
+    "controlsTouch": "TAP a tile to double it. Use the on-screen direction buttons to slide the board.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "tap-tempo",
@@ -627,7 +803,11 @@
       "#285f69"
     ],
     "number": 45,
-    "controls": "Tap the glowing targets as quickly as possible."
+    "controls": "Tap the glowing targets as quickly as possible.",
+    "aim": "Score 100 points in 30 seconds — tap the targets fast.",
+    "controlsTouch": "TAP the glowing targets as quickly as possible.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "orbit-catch",
@@ -641,7 +821,11 @@
       "#3b4783"
     ],
     "number": 46,
-    "controls": "Tap the glowing targets as quickly as possible."
+    "controls": "Tap the glowing targets as quickly as possible.",
+    "aim": "Score 100 points in 30 seconds — tap the targets fast.",
+    "controlsTouch": "TAP the glowing targets as quickly as possible.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "dash-dodger",
@@ -655,7 +839,11 @@
       "#743d64"
     ],
     "number": 47,
-    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears."
+    "controls": "Press Space or tap to jump. Use Down to duck when the prompt appears.",
+    "aim": "Reach 300 points — jump the barriers and keep running.",
+    "controlsTouch": "TAP JUMP to leap. TAP DOWN to duck.",
+    "target": 300,
+    "targetKind": "score"
   },
   {
     "id": "echo-reflex",
@@ -669,7 +857,11 @@
       "#2c5779"
     ],
     "number": 48,
-    "controls": "Tap the glowing targets as quickly as possible."
+    "controls": "Tap the glowing targets as quickly as possible.",
+    "aim": "Score 100 points in 30 seconds — tap the targets fast.",
+    "controlsTouch": "TAP the glowing targets as quickly as possible.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "perfect-drop",
@@ -683,7 +875,11 @@
       "#77543d"
     ],
     "number": 49,
-    "controls": "Tap, click or press Space to drop the moving platform."
+    "controls": "Tap, click or press Space to drop the moving platform.",
+    "aim": "Reach 100 points — drop each platform in line.",
+    "controlsTouch": "TAP anywhere to drop the moving platform.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "bounce-lab",
@@ -697,7 +893,11 @@
       "#2d5b7a"
     ],
     "number": 50,
-    "controls": "Tap or use the keyboard to play."
+    "controls": "Tap or use the keyboard to play.",
+    "aim": "Clear all the glowing blocks.",
+    "controlsTouch": "TAP and drag on the game to move the paddle.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "light-chaser",
@@ -711,7 +911,11 @@
       "#59437a"
     ],
     "number": 51,
-    "controls": "Tap the glowing targets as quickly as possible."
+    "controls": "Tap the glowing targets as quickly as possible.",
+    "aim": "Score 100 points in 30 seconds — tap the targets fast.",
+    "controlsTouch": "TAP the glowing targets as quickly as possible.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "hoop-flick",
@@ -725,7 +929,11 @@
       "#794838"
     ],
     "number": 52,
-    "controls": "Tap or click to send the ball toward the hoop."
+    "controls": "Tap or click to send the ball toward the hoop.",
+    "aim": "Score at least 6 baskets out of 10 shots.",
+    "controlsTouch": "TAP near the hoop to shoot.",
+    "target": 6,
+    "targetKind": "made"
   },
   {
     "id": "catch-the-comet",
@@ -739,7 +947,11 @@
       "#335a92"
     ],
     "number": 53,
-    "controls": "Tap the glowing targets as quickly as possible."
+    "controls": "Tap the glowing targets as quickly as possible.",
+    "aim": "Score 100 points in 30 seconds — tap the targets fast.",
+    "controlsTouch": "TAP the glowing targets as quickly as possible.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "quick-switch",
@@ -753,7 +965,11 @@
       "#64457e"
     ],
     "number": 54,
-    "controls": "Tap the glowing targets as quickly as possible."
+    "controls": "Tap the glowing targets as quickly as possible.",
+    "aim": "Score 100 points in 30 seconds — tap the targets fast.",
+    "controlsTouch": "TAP the glowing targets as quickly as possible.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "pocket-hoops",
@@ -767,7 +983,11 @@
       "#7a4b3c"
     ],
     "number": 55,
-    "controls": "Tap or click to send the ball toward the hoop."
+    "controls": "Tap or click to send the ball toward the hoop.",
+    "aim": "Score at least 6 baskets out of 10 shots.",
+    "controlsTouch": "TAP near the hoop to shoot.",
+    "target": 6,
+    "targetKind": "made"
   },
   {
     "id": "penalty-path",
@@ -781,7 +1001,11 @@
       "#315f4e"
     ],
     "number": 56,
-    "controls": "Tap or click to send the ball toward the hoop."
+    "controls": "Tap or click to send the ball toward the hoop.",
+    "aim": "Score at least 6 baskets out of 10 shots.",
+    "controlsTouch": "TAP near the hoop to shoot.",
+    "target": 6,
+    "targetKind": "made"
   },
   {
     "id": "mini-golf",
@@ -795,7 +1019,11 @@
       "#356448"
     ],
     "number": 57,
-    "controls": "Drag from the ball to aim, then release to putt."
+    "controls": "Drag from the ball to aim, then release to putt.",
+    "aim": "Sink the ball in the cup in as few putts as you can.",
+    "controlsTouch": "DRAG from the ball to aim, then release to putt.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "table-tennis-ace",
@@ -809,7 +1037,11 @@
       "#315b7b"
     ],
     "number": 58,
-    "controls": "Tap the glowing targets as quickly as possible."
+    "controls": "Tap the glowing targets as quickly as possible.",
+    "aim": "Score 100 points in 30 seconds — tap the targets fast.",
+    "controlsTouch": "TAP the glowing targets as quickly as possible.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "bowling-lane",
@@ -823,7 +1055,11 @@
       "#76533e"
     ],
     "number": 59,
-    "controls": "Tap the lane to choose your line and roll the ball."
+    "controls": "Tap the lane to choose your line and roll the ball.",
+    "aim": "Score 60 points in 10 rolls.",
+    "controlsTouch": "TAP the lane to choose your line and roll.",
+    "target": 60,
+    "targetKind": "score"
   },
   {
     "id": "soccer-rally",
@@ -837,7 +1073,11 @@
       "#35664e"
     ],
     "number": 60,
-    "controls": "Tap the glowing targets as quickly as possible."
+    "controls": "Tap the glowing targets as quickly as possible.",
+    "aim": "Score 100 points in 30 seconds — tap the targets fast.",
+    "controlsTouch": "TAP the glowing targets as quickly as possible.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "free-kick-hero",
@@ -851,7 +1091,11 @@
       "#37664e"
     ],
     "number": 61,
-    "controls": "Tap or click to send the ball toward the hoop."
+    "controls": "Tap or click to send the ball toward the hoop.",
+    "aim": "Score at least 6 baskets out of 10 shots.",
+    "controlsTouch": "TAP near the hoop to shoot.",
+    "target": 6,
+    "targetKind": "made"
   },
   {
     "id": "basket-bounce",
@@ -865,7 +1109,11 @@
       "#7c4c3c"
     ],
     "number": 62,
-    "controls": "Tap or click to send the ball toward the hoop."
+    "controls": "Tap or click to send the ball toward the hoop.",
+    "aim": "Score at least 6 baskets out of 10 shots.",
+    "controlsTouch": "TAP near the hoop to shoot.",
+    "target": 6,
+    "targetKind": "made"
   },
   {
     "id": "skate-rhythm",
@@ -879,7 +1127,11 @@
       "#52467c"
     ],
     "number": 63,
-    "controls": "Press the arrow shown when its beat reaches the marker."
+    "controls": "Press the arrow shown when its beat reaches the marker.",
+    "aim": "Hit 20 notes on the beat.",
+    "controlsTouch": "TAP the lane button when its note reaches the line.",
+    "target": 20,
+    "targetKind": "hits"
   },
   {
     "id": "pool-puzzle",
@@ -893,7 +1145,11 @@
       "#2a6252"
     ],
     "number": 64,
-    "controls": "Tap a target ball to plan a simple cue shot."
+    "controls": "Tap a target ball to plan a simple cue shot.",
+    "aim": "Clear all 8 balls from the table.",
+    "controlsTouch": "TAP a ball to pocket it.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "memory-garden",
@@ -907,7 +1163,11 @@
       "#3b634a"
     ],
     "number": 65,
-    "controls": "Tap two cards to reveal them. Find every matching pair."
+    "controls": "Tap two cards to reveal them. Find every matching pair.",
+    "aim": "Find all 8 matching pairs.",
+    "controlsTouch": "TAP two cards to reveal them.",
+    "target": 8,
+    "targetKind": "pairs"
   },
   {
     "id": "connect-four-corners",
@@ -921,7 +1181,11 @@
       "#3a5381"
     ],
     "number": 66,
-    "controls": "Tap a column to drop your disc. Connect four first."
+    "controls": "Tap a column to drop your disc. Connect four first.",
+    "aim": "Connect four discs in a row.",
+    "controlsTouch": "TAP a column to drop your disc.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "tic-tac-toe-club",
@@ -935,7 +1199,11 @@
       "#55487d"
     ],
     "number": 67,
-    "controls": "Tap an empty square. The computer takes the next turn."
+    "controls": "Tap an empty square. The computer takes the next turn.",
+    "aim": "Get three in a row before the computer does.",
+    "controlsTouch": "TAP an empty square.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "memory-museum",
@@ -949,7 +1217,11 @@
       "#70475e"
     ],
     "number": 68,
-    "controls": "Tap two cards to reveal them. Find every matching pair."
+    "controls": "Tap two cards to reveal them. Find every matching pair.",
+    "aim": "Find all 8 matching pairs.",
+    "controlsTouch": "TAP two cards to reveal them.",
+    "target": 8,
+    "targetKind": "pairs"
   },
   {
     "id": "pattern-pairs",
@@ -963,7 +1235,11 @@
       "#32636a"
     ],
     "number": 69,
-    "controls": "Tap two cards to reveal them. Find every matching pair."
+    "controls": "Tap two cards to reveal them. Find every matching pair.",
+    "aim": "Find all 8 matching pairs.",
+    "controlsTouch": "TAP two cards to reveal them.",
+    "target": 8,
+    "targetKind": "pairs"
   },
   {
     "id": "solitaire-steps",
@@ -977,7 +1253,11 @@
       "#365e51"
     ],
     "number": 70,
-    "controls": "Tap a playable card to move it to the sequence pile."
+    "controls": "Tap a playable card to move it to the sequence pile.",
+    "aim": "Clear all 12 cards in a run.",
+    "controlsTouch": "TAP a card next in value to the pile.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "four-in-a-row",
@@ -991,7 +1271,11 @@
       "#3b5483"
     ],
     "number": 71,
-    "controls": "Tap a column to drop your disc. Connect four first."
+    "controls": "Tap a column to drop your disc. Connect four first.",
+    "aim": "Connect four discs in a row.",
+    "controlsTouch": "TAP a column to drop your disc.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "card-cascade",
@@ -1005,7 +1289,11 @@
       "#73503d"
     ],
     "number": 72,
-    "controls": "Tap a playable card to move it to the sequence pile."
+    "controls": "Tap a playable card to move it to the sequence pile.",
+    "aim": "Clear all 12 cards in a run.",
+    "controlsTouch": "TAP a card next in value to the pile.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "memory-cosmos",
@@ -1019,7 +1307,11 @@
       "#44477e"
     ],
     "number": 73,
-    "controls": "Tap two cards to reveal them. Find every matching pair."
+    "controls": "Tap two cards to reveal them. Find every matching pair.",
+    "aim": "Find all 8 matching pairs.",
+    "controlsTouch": "TAP two cards to reveal them.",
+    "target": 8,
+    "targetKind": "pairs"
   },
   {
     "id": "strategy-squares",
@@ -1033,7 +1325,11 @@
       "#2c626a"
     ],
     "number": 74,
-    "controls": "Tap an empty square. The computer takes the next turn."
+    "controls": "Tap an empty square. The computer takes the next turn.",
+    "aim": "Get three in a row before the computer does.",
+    "controlsTouch": "TAP an empty square.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "little-farm",
@@ -1047,7 +1343,11 @@
       "#41694c"
     ],
     "number": 75,
-    "controls": "Tap ready crops to harvest and tend the garden."
+    "controls": "Tap ready crops to harvest and tend the garden.",
+    "aim": "Reach 50 points — tap plots to grow and harvest.",
+    "controlsTouch": "TAP a plot to grow and harvest.",
+    "target": 50,
+    "targetKind": "score"
   },
   {
     "id": "cafe-dash",
@@ -1061,7 +1361,11 @@
       "#79533d"
     ],
     "number": 76,
-    "controls": "Tap the ingredients in the requested order."
+    "controls": "Tap the ingredients in the requested order.",
+    "aim": "Serve all 7 orders before the kitchen closes.",
+    "controlsTouch": "TAP the ingredient the order asks for.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "pet-care-studio",
@@ -1075,7 +1379,11 @@
       "#734a66"
     ],
     "number": 77,
-    "controls": "Tap the ingredients in the requested order."
+    "controls": "Tap the ingredients in the requested order.",
+    "aim": "Serve all 7 orders before the kitchen closes.",
+    "controlsTouch": "TAP the ingredient the order asks for.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "tiny-town-builder",
@@ -1089,7 +1397,11 @@
       "#345f7d"
     ],
     "number": 78,
-    "controls": "Tap an empty plot to place the next building."
+    "controls": "Tap an empty plot to place the next building.",
+    "aim": "Reach 50 points — place buildings on empty plots.",
+    "controlsTouch": "TAP an empty plot to place the next building.",
+    "target": 50,
+    "targetKind": "score"
   },
   {
     "id": "fish-tales",
@@ -1103,7 +1415,11 @@
       "#2d5f7c"
     ],
     "number": 79,
-    "controls": "Wait for the bite signal, then tap quickly."
+    "controls": "Wait for the bite signal, then tap quickly.",
+    "aim": "Catch 8 fish before the 30-second timer ends.",
+    "controlsTouch": "TAP quickly when you see BITE!",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "garden-keeper",
@@ -1117,7 +1433,11 @@
       "#33664e"
     ],
     "number": 80,
-    "controls": "Tap ready crops to harvest and tend the garden."
+    "controls": "Tap ready crops to harvest and tend the garden.",
+    "aim": "Reach 50 points — tap plots to grow and harvest.",
+    "controlsTouch": "TAP a plot to grow and harvest.",
+    "target": 50,
+    "targetKind": "score"
   },
   {
     "id": "sort-studio",
@@ -1131,7 +1451,11 @@
       "#57487e"
     ],
     "number": 81,
-    "controls": "Select a piece, then select its matching tray."
+    "controls": "Select a piece, then select its matching tray.",
+    "aim": "Sort all 12 pieces into the right trays.",
+    "controlsTouch": "TAP a piece, then TAP its matching tray.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "color-canvas",
@@ -1145,7 +1469,11 @@
       "#764765"
     ],
     "number": 82,
-    "controls": "Choose a colour, then tap the artwork cells to fill them."
+    "controls": "Choose a colour, then tap the artwork cells to fill them.",
+    "aim": "Fill every cell of the artwork.",
+    "controlsTouch": "Choose a colour, then TAP the artwork cells to fill them.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "train-yard",
@@ -1159,7 +1487,11 @@
       "#355d75"
     ],
     "number": 83,
-    "controls": "Tap an empty plot to place the next building."
+    "controls": "Tap an empty plot to place the next building.",
+    "aim": "Reach 50 points — place buildings on empty plots.",
+    "controlsTouch": "TAP an empty plot to place the next building.",
+    "target": 50,
+    "targetKind": "score"
   },
   {
     "id": "cozy-aquarium",
@@ -1173,7 +1505,11 @@
       "#315e7b"
     ],
     "number": 84,
-    "controls": "Wait for the bite signal, then tap quickly."
+    "controls": "Wait for the bite signal, then tap quickly.",
+    "aim": "Catch 8 fish before the 30-second timer ends.",
+    "controlsTouch": "TAP quickly when you see BITE!",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "loop-escape",
@@ -1187,7 +1523,11 @@
       "#2e6267"
     ],
     "number": 85,
-    "controls": "Use arrow keys, WASD or touch arrows to reach the exit."
+    "controls": "Use arrow keys, WASD or touch arrows to reach the exit.",
+    "aim": "Reach the glowing exit.",
+    "controlsTouch": "TAP the on-screen direction buttons to move through the maze.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "key-quest",
@@ -1201,7 +1541,11 @@
       "#775839"
     ],
     "number": 86,
-    "controls": "Use arrow keys, WASD or touch arrows to reach the exit."
+    "controls": "Use arrow keys, WASD or touch arrows to reach the exit.",
+    "aim": "Reach the glowing exit.",
+    "controlsTouch": "TAP the on-screen direction buttons to move through the maze.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "sokoban-steps",
@@ -1215,7 +1559,11 @@
       "#315e59"
     ],
     "number": 87,
-    "controls": "Use arrows or swipe to move. Push crates onto the marked goals."
+    "controls": "Use arrows or swipe to move. Push crates onto the marked goals.",
+    "aim": "Push the crate onto the glowing goal.",
+    "controlsTouch": "TAP the on-screen direction buttons to push the crate.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "light-path",
@@ -1229,7 +1577,11 @@
       "#484d83"
     ],
     "number": 88,
-    "controls": "Use arrows or swipe to move. Push crates onto the marked goals."
+    "controls": "Use arrows or swipe to move. Push crates onto the marked goals.",
+    "aim": "Push the crate onto the glowing goal.",
+    "controlsTouch": "TAP the on-screen direction buttons to push the crate.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "maze-runner-mini",
@@ -1243,7 +1595,11 @@
       "#305e72"
     ],
     "number": 89,
-    "controls": "Use arrow keys, WASD or touch arrows to reach the exit."
+    "controls": "Use arrow keys, WASD or touch arrows to reach the exit.",
+    "aim": "Reach the glowing exit.",
+    "controlsTouch": "TAP the on-screen direction buttons to move through the maze.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "number-path",
@@ -1257,7 +1613,11 @@
       "#614d7b"
     ],
     "number": 90,
-    "controls": "Select a cell, then press 1–4 to enter a number."
+    "controls": "Select a cell, then press 1–4 to enter a number.",
+    "aim": "Fill every empty cell with the right number.",
+    "controlsTouch": "TAP a cell, then TAP a number below.",
+    "target": null,
+    "targetKind": null
   },
   {
     "id": "word-scramble",
@@ -1271,7 +1631,11 @@
       "#71466a"
     ],
     "number": 91,
-    "controls": "Type your answer and press Enter."
+    "controls": "Type your answer and press Enter.",
+    "aim": "Score 50 points — unscramble 5 words before time runs out.",
+    "controlsTouch": "TAP the answer box, type the word, then TAP Submit.",
+    "target": 50,
+    "targetKind": "score"
   },
   {
     "id": "speed-typist",
@@ -1285,7 +1649,11 @@
       "#3d5883"
     ],
     "number": 92,
-    "controls": "Type the word shown and press Enter."
+    "controls": "Type the word shown and press Enter.",
+    "aim": "Score 50 points — type 5 words correctly before time runs out.",
+    "controlsTouch": "TAP the answer box, type the word, then TAP Submit.",
+    "target": 50,
+    "targetKind": "score"
   },
   {
     "id": "number-rush",
@@ -1299,7 +1667,11 @@
       "#4c4c82"
     ],
     "number": 93,
-    "controls": "Repeat the growing sequence using the numbered pads."
+    "controls": "Repeat the growing sequence using the numbered pads.",
+    "aim": "Reach level 6 — repeat the pattern shown.",
+    "controlsTouch": "Watch the pattern, then TAP the tiles in order.",
+    "target": 6,
+    "targetKind": "level"
   },
   {
     "id": "daily-riddle",
@@ -1313,7 +1685,11 @@
       "#79583c"
     ],
     "number": 94,
-    "controls": "Type your answer and press Enter."
+    "controls": "Type your answer and press Enter.",
+    "aim": "Score 50 points — unscramble 5 words before time runs out.",
+    "controlsTouch": "TAP the answer box, type the word, then TAP Submit.",
+    "target": 50,
+    "targetKind": "score"
   },
   {
     "id": "spot-the-pattern",
@@ -1327,7 +1703,11 @@
       "#31666a"
     ],
     "number": 95,
-    "controls": "Study the pattern and choose the matching next tile."
+    "controls": "Study the pattern and choose the matching next tile.",
+    "aim": "Reach level 6 — repeat the pattern shown.",
+    "controlsTouch": "Watch the pattern, then TAP the tiles in order.",
+    "target": 6,
+    "targetKind": "level"
   },
   {
     "id": "sequence-memory",
@@ -1341,7 +1721,11 @@
       "#55477c"
     ],
     "number": 96,
-    "controls": "Repeat the growing sequence using the numbered pads."
+    "controls": "Repeat the growing sequence using the numbered pads.",
+    "aim": "Reach level 6 — repeat the pattern shown.",
+    "controlsTouch": "Watch the pattern, then TAP the tiles in order.",
+    "target": 6,
+    "targetKind": "level"
   },
   {
     "id": "odd-one-out",
@@ -1355,7 +1739,11 @@
       "#315d79"
     ],
     "number": 97,
-    "controls": "Study the pattern and choose the matching next tile."
+    "controls": "Study the pattern and choose the matching next tile.",
+    "aim": "Reach level 6 — repeat the pattern shown.",
+    "controlsTouch": "Watch the pattern, then TAP the tiles in order.",
+    "target": 6,
+    "targetKind": "level"
   },
   {
     "id": "reaction-test",
@@ -1369,7 +1757,11 @@
       "#74445f"
     ],
     "number": 98,
-    "controls": "Tap the glowing targets as quickly as possible."
+    "controls": "Tap the glowing targets as quickly as possible.",
+    "aim": "Score 100 points in 30 seconds — tap the targets fast.",
+    "controlsTouch": "TAP the glowing targets as quickly as possible.",
+    "target": 100,
+    "targetKind": "score"
   },
   {
     "id": "rhythm-tap",
@@ -1383,7 +1775,11 @@
       "#454b81"
     ],
     "number": 99,
-    "controls": "Press the arrow shown when its beat reaches the marker."
+    "controls": "Press the arrow shown when its beat reaches the marker.",
+    "aim": "Hit 20 notes on the beat.",
+    "controlsTouch": "TAP the lane button when its note reaches the line.",
+    "target": 20,
+    "targetKind": "hits"
   },
   {
     "id": "quick-count",
@@ -1397,6 +1793,10 @@
       "#2f625f"
     ],
     "number": 100,
-    "controls": "Repeat the growing sequence using the numbered pads."
+    "controls": "Repeat the growing sequence using the numbered pads.",
+    "aim": "Reach level 6 — repeat the pattern shown.",
+    "controlsTouch": "Watch the pattern, then TAP the tiles in order.",
+    "target": 6,
+    "targetKind": "level"
   }
 ]
