@@ -1,14 +1,15 @@
 (()=>{'use strict';
-const G=window.GAMES||[],$=s=>document.querySelector(s),byId=id=>G.find(x=>x.id===id),root=(document.body.dataset.root||'.').replace(/\/$/,''),today=new Date().toISOString().slice(0,10);
+function localDay(off){const d=new Date();d.setDate(d.getDate()+(off||0));return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+const G=window.GAMES||[],$=s=>document.querySelector(s),byId=id=>G.find(x=>x.id===id),root=(document.body.dataset.root||'.').replace(/\/$/,''),today=localDay(0);
 const store={get(k,d){try{const v=localStorage.getItem('arcadia:'+k);return v?JSON.parse(v):d}catch{return d}},set(k,v){try{localStorage.setItem('arcadia:'+k,JSON.stringify(v))}catch{}}};
 const best=g=>store.get('best:'+g.id,0),setBest=(g,n)=>store.set('best:'+g.id,Math.max(best(g),Math.floor(n)));
 const palette=['#67ead7','#8fa9ff','#ffc878','#e9a0cf','#a8df8d','#80c5ed'];
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function gameHref(g){return root+'/games/'+g.id+'/'}
 function card(g){return `<article class="card"><a href="${gameHref(g)}"><img class="cover" loading="lazy" src="${root}/assets/covers/${g.id}.svg" alt="Original artwork for ${esc(g.name)} browser game"><div class="cardbody"><div class="cardmeta"><span>${esc(g.category)}</span><span>${esc(g.difficulty)}</span></div><h3>${esc(g.name)}</h3><p>${esc(g.desc)}</p><div class="cardfoot"><span class="tiny">BEST: ${best(g)}</span><span class="playlink">PLAY NOW</span></div></div></a></article>`}
-function updateStreak(){let s=store.get('streak',{last:'',count:0});if(s.last!==today){const y=new Date(Date.now()-86400000).toISOString().slice(0,10);s.count=s.last===y?s.count+1:1;s.last=today;store.set('streak',s)}return s}
+function updateStreak(){let s=store.get('streak',{last:'',count:0});if(s.last!==today){const y=localDay(-1);s.count=s.last===y?s.count+1:1;s.last=today;store.set('streak',s)}return s}
 function markVisit(g){const p=store.get('profile',{plays:0,lastGame:'',favorites:[],dailyDate:'',dailyScore:0});p.plays++;p.lastGame=g.id;store.set('profile',p);updateStreak()}
-function dailyGame(){const d=Math.floor(Date.now()/86400000);return G[(d*37+13)%G.length]}
+function dailyGame(){const n=new Date(),d=Math.floor(new Date(n.getFullYear(),n.getMonth(),n.getDate()).getTime()/86400000);return G[(d*37+13)%G.length]}
 function renderHome(){const grid=$('#gameGrid');if(!grid)return;const input=$('#gameSearch'),filter=$('#filters');let category='All';const q=(input?.value||'').trim().toLowerCase();let list=G.filter(g=>(category==='All'||g.category===category)&&(!q||[g.name,g.category,g.desc,g.engine].join(' ').toLowerCase().includes(q)));grid.innerHTML=list.map(card).join('')||'<p class="modalmsg">No games matched. Try another search.</p>';if($('#gameCount'))$('#gameCount').textContent=G.length;const p=store.get('profile',{plays:0,favorites:[]}),s=updateStreak();if($('#playCount'))$('#playCount').textContent=p.plays;if($('#streakCount'))$('#streakCount').textContent=s.count;if($('#favCount'))$('#favCount').textContent=(p.favorites||[]).length;
 const daily=dailyGame();const d=$('#dailyTitle');if(d){d.textContent=daily.name;$('#dailyDesc').textContent='Today’s featured challenge: '+daily.desc;$('#dailyLink').href=gameHref(daily)}
 const resume=$('#resume');if(resume){const last=byId(p.lastGame);resume.innerHTML=last?`<a class="btn" href="${gameHref(last)}">Continue: ${esc(last.name)}</a>`:''}

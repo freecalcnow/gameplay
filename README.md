@@ -18,7 +18,7 @@ Open `index.html` or run a local server from this folder, for example `python -m
 1. Create a public repository and upload the contents of this folder to its root.
 2. Enable GitHub Pages from the repository's main branch and root folder.
 3. For a custom domain, connect it in GitHub Pages and enable HTTPS.
-4. Replace every `https://freecalcnow.github.io/arcadia-global-100` placeholder in canonical URLs, JSON-LD, `sitemap.xml`, `robots.txt`, Open Graph URLs and social image references with the final HTTPS domain.
+4. Replace every `https://freecalcnow.github.io/gameplay` placeholder in canonical URLs, JSON-LD, `sitemap.xml`, `robots.txt`, Open Graph URLs and social image references with the final HTTPS domain.
 5. Replace `REPLACE_WITH_SEARCH_CONSOLE_TOKEN` in the homepage meta tag with the verification token from Google Search Console. Verify the property, then submit `/sitemap.xml`. This package prepares the sitemap; it does not submit or verify a property on the owner's behalf.
 6. Replace `malikarslan032154@gmail.com` on the Contact page with a real support address. Review Privacy and Terms before publishing.
 

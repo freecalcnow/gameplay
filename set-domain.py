@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 import sys
 
 ROOT = Path(__file__).resolve().parent
-OLD = "https://YOUR-DOMAIN.example"
+OLD = "https://freecalcnow.github.io/gameplay"
 TEXT_SUFFIXES = {".html", ".xml", ".txt", ".json", ".webmanifest", ".md", ".js", ".css"}
 
 
